@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 const story = await useAsyncStoryblok("vue", {
   version: "draft",
   language: "en",
