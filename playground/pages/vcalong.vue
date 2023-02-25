@@ -1,5 +1,5 @@
-<script setup>
-const story = ref(null);
+<script lang="ts" setup>
+const story: Ref<any> = ref(null);
 
 onMounted(async () => {
   const storyblokApi = useStoryblokApi();
