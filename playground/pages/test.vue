@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 const story = await useStoryblok("vue/test", { version: "draft" });
 </script>
 
